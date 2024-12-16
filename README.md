@@ -4,6 +4,11 @@
 * This projects comes from my demo project https://github.com/guido57/uros_demo
 * Besides, this project is pretty similar to https://www.hackster.io/amal-shaji/differential-drive-robot-using-ros2-and-esp32-aae289#overview, apart from the use of PlatformIO.
 * To better understand the encoder reading, look at https://www.hackster.io/amal-shaji/reading-the-encoder-value-of-n20-motor-using-esp32-56575a
+
+# Block Diagram
+
+![docs/block_diagram.png](docs/block_diagram.png)
+
   
 # Build and run
 

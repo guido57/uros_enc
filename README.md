@@ -55,21 +55,24 @@
 
 I only tested this project using my PC running Ubuntu 22.04 with ROS2 Humble.
 
-### Publisher
+### /odom Publisher
 
-the ESP32 should publish an incremental integer value on the topic /topic_name, so if you subscribe to it from your PC:
+The ESP32 publishes a standard /odom topic. which can be read by rviz2 or nav2.
   ```
-  ros2 topic echo /topic_name
+  ros2 topic echo /odom --field pose.pose
   ```
 you should see something like:
   ```
-    data: 0
-    ---
-    data: 1
-    ---
-    data: 2
-    ---
-    data: 3
+  position:
+    x: 0.041983988136053085
+    y: -0.002503202995285392
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 0.05259290913491116
+    w: 0.9986160352751837
+  ---
   ```
 
 ### Subscriber

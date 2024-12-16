@@ -4,7 +4,7 @@
 * This program uses the micro-ROS release created for PlatformIO you can find here: https://github.com/micro-ROS/micro_ros_platformio
 * You can find a much more general description here: https://technologiehub.at/project-posts/micro-ros-on-esp32-tutorial/
 * Besides, this project is pretty similar to https://www.hackster.io/amal-shaji/differential-drive-robot-using-ros2-and-esp32-aae289#overview, apart from the use of PlatformIO.
-* 
+  
 # Build and run
 
 ## Download this project

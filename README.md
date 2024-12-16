@@ -1,8 +1,7 @@
 # Overview
-* This is a PlatformIO demo program to create a ROS2 publisher and subscriber by an ESP32
+* This is a PlatformIO program to create a ROS2 /odom publisher and /cmd_vel subscriber by an ESP32
 * I used an "ESP32 D1 Mini" but any ESP32 should be ok
-* This program uses the micro-ROS release created for PlatformIO you can find here: https://github.com/micro-ROS/micro_ros_platformio
-* You can find a much more general description here: https://technologiehub.at/project-posts/micro-ros-on-esp32-tutorial/
+* This projects comes from my demo project https://github.com/guido57/uros_demo
 * Besides, this project is pretty similar to https://www.hackster.io/amal-shaji/differential-drive-robot-using-ros2-and-esp32-aae289#overview, apart from the use of PlatformIO.
   
 # Build and run
@@ -10,8 +9,7 @@
 ## Download this project
 * git clone or download this project
 * open it with VS Code
-* create the file credentials.h in the src directory
-* fill it with your wifi and ros2 agent credentials
+* create the file credentials.h in the src directory and fill it with your wifi and ros2 agent credentials
 
   e.g.
   ```

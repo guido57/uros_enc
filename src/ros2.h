@@ -15,7 +15,7 @@ extern rclc_support_t support;
 extern rcl_allocator_t allocator;
 extern rcl_node_t node;
 extern rclc_executor_t executor;
-extern rcl_timer_t timer;
+extern rcl_timer_t odom_pid_timer;
 extern std_msgs__msg__Int32 sub_msg;
 
 #endif

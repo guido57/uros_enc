@@ -17,7 +17,6 @@ void RplidarC1::begin() {
     scan_msg.scan_time = 0.1; // Assuming 10 Hz scan rate
     scan_msg.range_min = MIN_RANGE;
     scan_msg.range_max = MAX_RANGE;
-
 }
 
 void RplidarC1::resetLidar() {
